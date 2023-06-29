@@ -100,6 +100,10 @@ body{
 	font-size: 220%;
 	padding-bottom: 20px;
 }
+#link1{
+	color: black;
+	text-decoration: underline;
+}
 @media (max-width: 767px) {
 	.row{
 	padding-left: 55px;
