@@ -100,7 +100,7 @@ body{
 	font-size: 220%;
 	padding-bottom: 20px;
 }
-@media (max-width: 778px) {
+@media (max-width: 767px) {
 	.row{
 	padding-left: 55px;
 	padding-right: 55px;
