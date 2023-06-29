@@ -1,0 +1,108 @@
+body{
+	font-family: 'Kalam', monospace;
+	background: #5f6362;
+}
+#header-nav{
+	min-height: 100px;
+	background: black;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1{
+	color: lime ;
+
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -20px;
+	margin-bottom: 34px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid lime;
+	background: black;
+
+}
+#nav-list li a{
+	color: white ;
+	font-size: 120%;
+	margin: 0;
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+	background: black;
+}
+#nav-list li a:hover{
+	color: lime;
+	font-size: 180%;
+	border: 2px dashed lime;
+}
+#heading{
+	color: cyan;
+	text-decoration: underline;
+	padding-bottom: 20px;
+}
+#chicken{
+	background: orange;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 110%;
+	color: black;
+	padding-right: 50px;
+	padding-left: 50px;
+	text-align: justify;
+  	text-justify: inter-word;
+
+}
+#beef{
+	background: red;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: #000;
+	font-size: 110%;
+	padding-right: 50px;
+	padding-left: 50px;
+	text-align: justify;
+  	text-justify: inter-word
+}
+#sushi{
+	background: green;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 110%;
+	color: #000;
+	text-align: justify;
+  	text-justify: inter-word;
+  	padding-right: 50px;
+	padding-left: 50px;
+}
+#chicken-head{
+	text-align: center;
+	color: blueviolet;
+	font-size: 220%;
+	padding-bottom: 20px;
+
+}
+#beef-head{
+	text-align: center;
+	color: white;
+	font-size: 220%;
+	padding-bottom: 20px;
+
+}
+#sushi-head{
+	text-align: center;
+	color: black;
+	font-size: 220%;
+	padding-bottom: 20px;
+}
+@media (max-width: 778px) {
+	.row{
+	padding-left: 55px;
+	padding-right: 55px;
+	}
+}
